@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- Slideshow container -->
+
+    <section id="header">
+      <div id="home" class="text-box">
+        <h1>Hi! I'm Adiel!</h1>
+        <p>I am a photographer!<br />This is my portfolio!</p>
+        <a href="aboutme.html" class="hero-btn">ABOUT ME</a>
+      </div>
+    </section>
+
+    <section id="background-video">
+      <video class="video-cover" autoplay loop muted>
+        <source src="src/images/video-background.mp4" type="video/mp4" />
+      </video>
+    </section>
+
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 5</div>
+        <div class="testimg">
+          <img
+            src="src/images/project-1.jpg"
+            alt="1 image"
+            style="width: 50%"
+          />
+          <div class="overlay">
+            <div class="textimg">The Hearn's Wedding</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 5</div>
+        <div class="testimg">
+          <img
+            src="src/images/project-2.jpg"
+            alt="2 image"
+            style="width: 50%"
+          />
+          <div class="overlay">
+            <div class="textimg">NCAA Indoor T&F Championship</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 5</div>
+        <div class="testimg">
+          <img
+            src="src/images/project-3.jpg"
+            alt="3 image"
+            style="width: 100%"
+          />
+          <div class="overlay">
+            <div class="textimg">Michigan Football</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 5</div>
+        <div class="testimg">
+          <img
+            src="src/images/project-4.jpg"
+            alt="3 image"
+            style="width: 100%"
+          />
+          <div class="overlay">
+            <div class="textimg">Penn State Basketball</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 5</div>
+        <div class="testimg">
+          <img
+            src="src/images/project-5.jpg"
+            alt="1 image"
+            style="width: 50%"
+          />
+        </div>
+        <div class="textimg">Michigan's Volleyball</div>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br />
+
+    <div style="text-align: center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+    </div>
+
+    <section id="portfolio">
+      <div class="portfolio-text">
+        <h1>SERVICES</h1>
+      </div>
+
+      <div class="cards">
+        <div class="card">
+          <img class="project-2-img" src="src/images/por3.jpg" />
+          <div>
+            <a href="portraits.html" class="project-btn">PORTRAITS</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="project-2-img" src="src/images/wed.jpg" />
+          <div>
+            <a href="weddings.html" class="project-btn">WEDDINGS</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="project-2-img" src="src/images/track.jpg" />
+          <div>
+            <a href="tf.html" class="project-btn">TRACK & FIELD</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            class="project-2-img"
+            class="project-2-img"
+            src="src/images/bbn.jpg"
+          />
+          <div>
+            <a href="bbn90.html" class="project-btn">BB90/BBN</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="project-2-img" src="src/images/couple.jpg" />
+          <div>
+            <a href="couple.html" class="project-btn">COUPLE</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="project-2-img" src="src/images/sports.jpg" />
+          <div>
+            <a href="sports.html" class="project-btn">SPORTS</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="contact-text">
+        <h1>CONTACT</h1>
+        <h3>adielgra@umich.edu</h3>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="icons">
+        <a href="https://www.instagram.com/adiel_photography/" target="_blank"
+          ><i class="fa fa-instagram fa-3x"></i
+          ><span class="sr-only">Search</span></a
+        >
+        <a href="https://twitter.com/granados_adiel"
+          ><i class="fa fa-twitter fa-3x"></i
+          ><span class="sr-only">Search</span></a
+        >
+        <a href="https://account.venmo.com/u/Adiel-Granados"
+          ><i class="fa fa-money fa-3x"></i
+          ><span class="sr-only">Search</span></a
+        >
+      </div>
+      <p id="inside-footer">
+        University of Michigan SI 339 Final Project ©2023 Adiel Granados
+        Hernandez Jr
+      </p>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
