@@ -1,10 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>portraits</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      body {
+        background-color: white;
+      }
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+        margin: 20px;
+      }
+      .grid-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+      }
+      .grid-item img {
+        max-height: 100%;
+        max-width: 100%;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <a href="index.html" class="back-btn">Home Page</a>
+    <a href="aboutme.html" class="back-btn">About Page</a>
+    <a href="portraits.html" class="back-btn">Portraits</a>
+    <a href="weddings.html" class="back-btn">Weddings</a>
+    <a href="bbn90.html" class="back-btn">BB90/BBN</a>
+    <a href="tf.html" class="back-btn">Track & Field</a>
+    <a href="couple.html" class="back-btn">Couples</a>
+    <a href="sports.html" class="back-btn">Sports</a>
+    <section id="background-video">
+      <video class="video-cover" autoplay loop muted>
+        <source src="src/images/5th.mp4" type="video/mp4" />
+      </video>
+    </section>
+
+    <div class="grid-container">
+      <div class="grid-item"><img src="src/images/track1.jpg" alt="" /></div>
+      <div class="grid-item"><img src="src/images/track2.jpg" alt="" /></div>
+      <div class="grid-item"><img src="src/images/track3.jpg" alt="" /></div>
+      <div class="grid-item"><img src="src/images/track4.jpg" alt="" /></div>
+      <div class="grid-item"><img src="src/images/track5.jpg" alt="" /></div>
+      <div class="grid-item"><img src="src/images/track6.jpg" alt="" /></div>
+      <div class="grid-item"><img src="src/images/track7.jpg" alt="" /></div>
+      <div class="grid-item"><img src="src/images/track8.jpg" alt="" /></div>
+      <div class="grid-item"><img src="src/images/track9.jpg" alt="" /></div>
+    </div>
+    <section class="footer">
+      <div class="icons">
+        <a href="https://www.instagram.com/adiel_photography/" target="_blank"
+          ><i class="fa fa-instagram fa-3x"></i
+          ><span class="sr-only">Search</span></a
+        >
+        <a href="https://twitter.com/granados_adiel"
+          ><i class="fa fa-twitter fa-3x"></i
+          ><span class="sr-only">Search</span></a
+        >
+        <a href="https://account.venmo.com/u/Adiel-Granados"
+          ><i class="fa fa-money fa-3x"></i
+          ><span class="sr-only">Search</span></a
+        >
+      </div>
+      <p id="inside-footer">
+        University of Michigan SI 339 Final Project ©2023 Adiel Granados
+        Hernandez Jr
+      </p>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
 </html>
